@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Menezes Surf Club Hotel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <ul id="menu">
+            <li class="menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="acomodacoes.html">Acomodações</a></li>
+            <li class="menu-item"><a href="hotel.html">O Hotel</a></li>
+            <li class="menu-item"><a href="contato.html">Contato</a>
+            <li class="menu-item"><a href="cidade.html">Saquarema</a></li>
+
+        </ul>
+
+        <div class="logo">
+            <a href="index.html"><img src="logoHotel.png"></a>
+        </div>
+    </nav>
+
+    <div class="hotel">
+        <p id="fraseHotel">Menezes Surf Club Hotel</p>
+
+        <div class="nossahistoria">
+            <p>A história do Menezes Surf Club Hotel começa há várias décadas, quando a família Menezes Machado, com sua
+                paixão pelo mar e pela hospitalidade, decidiu criar um refúgio à beira-mar em Saquarema. Localizada na
+                pitoresca Praia de Itaúna, a família viu o potencial da região para se tornar um destino para surfistas
+                e amantes da natureza. Assim, nasceu o Menezes Surf Club Hotel, um lugar onde a hospitalidade e a paixão
+                pelo mar se encontram.
+                No entanto, a história do nosso hotel seria incompleta sem mencionar Bea e Mariana, um casal cuja
+                conexão profunda com Saquarema e o estilo de vida à beira-mar trouxe uma nova dimensão ao Menezes Surf
+                Club Hotel. Apaixonadas pela natureza e pelo surf, elas perceberam o potencial da região e, movidas por
+                seu amor pelo mar, decidiram criar uma escola de surf que não apenas ensinasse a prática do esporte, mas
+                também celebrasse a rica cultura local.</p>
+        </div>
+
+        <div class="restaurante">
+            <h2>Descubra uma experiência gastronômica única em nosso restaurante, onde sabores irresistíveis e um
+                ambiente acolhedor esperam por você. Venha saborear o melhor da culinária local e internacional!</h2>
+
+            <!-- GASTRONOMIA -->
+            <div class="gridGastronomia">
+                <div class="fotosGastronomia">
+                    <img src="gastronomia1.jpg">
+                    <img src="gastronomia2.jpg">
+                    <img src="gastronomia3.jpg">
+                    <img src="gastronomia4.jpg">
+                </div>
+
+                <div class="textosGastronomia">
+                    <h3>Gastronomia que Enche a Alma </h3>
+
+                    <p>No Menezes Surf Club Hotel, acreditamos que uma experiência memorável à beira-mar não estaria
+                        completa
+                        sem uma gastronomia de excelência. Nosso restaurante, com vista panorâmica para o mar, é um
+                        convite para
+                        uma jornada culinária que celebra os sabores autênticos de Saquarema. Aqui, cada prato é
+                        preparado com
+                        amor e dedicação, utilizando ingredientes frescos e sazonais que refletem a riqueza da nossa
+                        terra e do
+                        nosso mar.</p>
+                </div>
+            </div>
+
+            <!-- AMBIENTE -->
+            <div class="gridAmbiente">
+                <div class="fotosAmbiente">
+                    <img src="ambiente1.jpg">
+                    <img src="ambiente2.jpg">
+                    <img src="ambiente3.jpg">
+                    <img src="ambiente4.jpg">
+                </div>
+
+                <div class="textosAmbiente">
+                    <h3>Ambiente Aconchegante e Convidativo</h3>
+
+                    <p> O ambiente do nosso restaurante é pensado para proporcionar uma experiência acolhedora e
+                        relaxante. Com uma decoração que reflete o charme de Saquarema e uma vista deslumbrante para a
+                        Praia de Itaúna, nossos hóspedes podem desfrutar de suas refeições em um cenário que combina
+                        conforto e beleza natural. Seja para um café da manhã tranquilo com a brisa do mar, um almoço
+                        delicioso após uma manhã de surf ou um jantar romântico sob as estrelas, nosso restaurante é o
+                        lugar perfeito para qualquer ocasião.</p>
+
+                </div>
+            </div>
+            <!-- VENHA NOS CONHECER -->
+
+            <div class="conhecer">
+                <div class="fotoConhecer">
+                    <img src="coco.jpg">
+                </div>
+                <div class="textosConhecer">
+                    <h3>Venha nos conhecer! </h3>
+                    <p>Convidamos você a descobrir os sabores únicos de Saquarema no Menezes Surf Club Hotel. Seja você
+                        um hóspede do hotel ou um visitante à procura de uma experiência culinária excepcional, nosso
+                        restaurante é um destino imperdível. Venha desfrutar de uma refeição que combina a
+                        melhorgastronomia com a vista mais deslumbrante. Esperamos por você para compartilhar momentos
+                        deliciosos e inesquecíveis.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PARTE ATIVIDADES -->
+
+        <div class="atividades">
+            <p>Descubra uma variedade de atividades exclusivas que tornarão sua estadia inesquecível!</p>
+
+
+            <div class="carrosseis">
+                <!-- CARROSSEL 1 - SURF  -->
+                <div class="c1">
+                    <div class="carrossel1" onmouseover="parar()" onmouseout="iniciarSlider()">
+                        <div class="botoesC">
+                            <input type="button" value="<" class="bnt" onclick="troca(-1)">
+                            <input type="button" value=">" class="bnt" onclick="troca(1)">
+                        </div>
+                    </div>
+                    <div class="textoC">
+                        <h3>Aulas de Surf com Instrutores Experientes para Todas as Idades</h3>
+                        <p>No Menezes Surf Club Hotel, o surf é o destaque principal. As aulas de surf são conduzidas
+                            por instrutores altamente qualificados e experientes, que conhecem profundamente as melhores
+                            praias locais e as condições ideais para a prática do esporte. As aulas são projetadas para
+                            atender tanto iniciantes quanto surfistas mais experientes, garantindo uma experiência
+                            segura e divertida para todos, incluindo crianças. Além das técnicas de surf, os instrutores
+                            também ensinam sobre a importância da segurança no mar e a preservação ambiental das praias.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- CARROSSEL 2 - YOGA -->
+                <div class="c2">
+                    <div class="carrossel2" onmouseover="parar2()" onmouseout="iniciarSlider2()">
+                        <div class="botoesC">
+                            <input type="button" value="<" class="bnt2" onclick="troca2(-1)">
+                            <input type="button" value=">" class="bnt2" onclick="troca2(1)">
+                        </div>
+                    </div>
+
+                    <div class="textoC">
+                        <h3>Aulas de Yoga para Todos os Níveis </h3>
+                        <p> Para complementar a experiência de surf e proporcionar um equilíbrio mental e físico, o
+                            hotel oferece aulas de yoga a beira mar. As sessões de yoga são adaptadas para todos os
+                            níveis, desde iniciantes até praticantes avançados, e são realizadas em locais especialmente
+                            escolhidos para maximizar a conexão com a natureza. Os instrutores de yoga são dedicados a
+                            ajudar os participantes a melhorar sua flexibilidade, força e concentração, promovendo um
+                            estado de relaxamento profundo e bem-estar.</p>
+                    </div>
+                </div>
+
+
+
+                <!-- CARROSSEL 3 - CACHOEIRAS -->
+                <div class="c3">
+                    <div class="carrossel3" onmouseover="parar3()" onmouseout="iniciarSlider3()">
+                        <div class="botoesC">
+                            <input type="button" value="<" class="bnt3" onclick="troca3(-1)">
+                            <input type="button" value=">" class="bnt3" onclick="troca3(1)">
+                        </div>
+                    </div>
+
+                    <div class="textoC">
+                        <h3> Trilhas para cachoeiras locais</h3>
+                        <p> Além das trilhas guiadas que oferecem vistas panorâmicas e uma imersão na natureza, o
+                            Menezes Surf Club Hotel também proporciona aos seus hóspedes a oportunidade de explorar
+                            algumas das cachoeiras mais encantadoras da região de Saquarema. Entre elas, destacam-se a
+                            Cachoeira do Tinguí e as Cachoeiras do Roncador, acessíveis por trilhas fáceis que oferecem
+                            uma experiência revigorante para todas as idades.</p>
+                    </div>
+
+                </div>
+
+
+
+
+
+                <!-- CARROSSEL 4 - AQUATICOS -->
+                <div class="c4">
+                    <div class="carrossel4" onmouseover="parar4()" onmouseout="iniciarSlider4()">
+                        <div class="botoesC">
+                            <input type="button" value="<" class="bnt4" onclick="troca4(-1)">
+                            <input type="button" value=">" class="bnt4" onclick="troca4(1)">
+                        </div>
+                    </div>
+
+                    <div class="textoC">
+                        <h3>Caiaque, Paddle Boarding e Outras Atividades Aquáticas </h3>
+                        <p> Além do surf, o hotel oferece uma ampla gama de esportes aquáticos para os hóspedes
+                            aproveitarem o mar de diferentes maneiras. As atividades incluem caiaque, paddle boarding,
+                            snorkeling, mergulho e jet ski. Cada atividade é planejada para proporcionar diversão e
+                            aventura, com equipamentos de alta qualidade e instruções claras para garantir a segurança e
+                            a satisfação dos participantes. Os hóspedes podem explorar recifes de corais, baías
+                            tranquilas e enseadas secretas, vivenciando a beleza subaquática e a diversidade marinha da
+                            região.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!----------------------------------------------------------------------------------------->
+
+    <footer>
+        <div class="rodape">
+            <!-- PARTE LOGO -->
+            <div class="logo1">
+                <img src="logoHotel2.png" alt="logo do hotel">
+            </div>
+            <!-- PARTE CENTRAL DE RESERVAS -->
+            <div class="reservas">
+                <h3>Central de Reservas: </h3>
+                <p><img src="telefone.png" alt="telefone">9534-5853</p>
+                <p><img src="whatsapp.png" alt="whatsapp"> 9 6748-1611</p>
+                <p><img src="email.png" alt="email">reservas@SurfClubHotel.com.br</p>
+            </div>
+
+            <!-- PARTE REDE SOCIAIS -->
+            <div class="redes">
+
+                <h3>Redes Sociais</h3>
+                <a href="https://instagram.com" target="_blank"><img src="instagram.png"></a>
+                <a href="https://www.airbnb.com.br/" target="_blank"><img src="airbnb.png"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="whatsapp.png"></a>
+            </div>
+
+            <!-- NEWSLETTER -->
+            <div class="newsletter">
+                <h3>Assine nossa Newsletter</h3>
+                <form method="POST">
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+            <p class="direitos-autorais">© 2024 Menezes Surf Club Hotel. Todos os direitos reservados.</p>
+        </div>
+
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

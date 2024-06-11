@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Menezes Surf Club Hotel</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul id="menu">
+            <li class="menu-item"><a href="index.html">Home</a></li>
+            <li class="menu-item"><a href="acomodacoes.html">Acomodações</a></li>
+            <li class="menu-item"><a href="hotel.html">O Hotel</a></li>
+            <li class="menu-item"><a href="contato.html">Contato</a>
+            <li class="menu-item"><a href="cidade.html">Saquarema</a></li>
+        </ul>
+        <div class="logo">
+            <a href="index.html"><img src="logoHotel.png" alt="Logo"></a>
+        </div>
+    </nav>
+    <!-- CONTATE-NOS -->
+    <div class="contato">
+        <div class="contatenos">
+            <div class="textosContatos">
+                <p class="titulo">Contate-nos.</p>
+                <p class="subtitulo">Vamos trabalhar juntos!</p>
+                <p class="descricao"> Obrigado pelo seu interesse no Menezes Surf Club Hotel. Estamos entusiasmados em ouvir de você.</p>
+            </div>
+            <div class="iconsContato">
+                <div class="contatoItem">
+                    <img src="telefone1.png" alt="telefone">
+                    <div>
+                        <p>Ligue para nós</p>
+                        <strong>+55 (22) 9534-5853</strong>
+                    </div>
+                </div>
+                <hr>
+                <div class="contatoItem">
+                    <img src="email 2.png" alt="email">
+                    <div>
+                        <p>Email</p>
+                        <strong>reservas@SurfClubHotel.com.br</strong>
+                    </div>
+                </div>
+                <hr>
+                <div class="contatoItem">
+                    <img src="pin.png" alt="Localização">
+                    <div>
+                        <p>Visite nosso escritório</p>
+                        <strong>Av. Oceânica 1564, Saquarema, RJ.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FORMULARIO CONTATO -->
+        <div class="formularioContato">
+            <form method="post" action="Contato-MenezesSurfClub.py" id="formulario" onsubmit="enviarFormulario(event)">
+                <div class="flex-containerContato">
+                    <input class="celulasContato" type="text" id="nome" name="nome" placeholder="Nome completo" required>
+                    <input class="celulasContato" type="tel" id="telefone" name="Celular" placeholder="Celular"  maxlength="10" required>
+                </div>
+                <input class="celulasContato" type="email" id="email" name="email" placeholder="Email" required>
+                <select class="celulasContato" name="assunto" required>
+                    <option selected="" value="">Selecione o assunto</option>
+                    <option value="Reservas">Reservas</option>
+                    <option value="Cancelamentos">Cancelamentos</option>
+                    <option value="Informações">Informações</option>
+                    <option value="Serviços">Serviços</option>
+                    <option value="Check-in/Chek-out">Check-in/Chek-out</option>
+                    <option value="Restaurante">Restaurante</option>
+                    <option value="Eventos">Eventos</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Reclamações">Reclamações</option>
+                    <option value="Suporte Técnico">Suporte Técnico</option>
+                    <option value="Outros">Outros</option>
+                </select>
+                <textarea class="celulasContato" cols="20" rows="5" maxlength="100" name="mensagem" placeholder="Escreva sua mensagem"></textarea>
+                <input class="celulas-buttonContato" type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2062.1848759035097!2d-42.47886653285832!3d-22.93564793422845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x975e849a942ef1%3A0x47becc0b1bccd746!2sCasa%20da%20Praia%20Ita%C3%BAna!5e0!3m2!1spt-BR!2sbr!4v1717823202865!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="rodape">
+            <div class="logo1">
+                <img src="logoHotel2.png" alt="logo do hotel">
+            </div>
+            <div class="reservas">
+                <h3>Central de Reservas: </h3>
+                <p><img src="telefone.png" alt="telefone">9534-5853</p>
+                <p><img src="whatsapp.png" alt="whatsapp"> 9 6748-1611</p>
+                <p><img src="email.png" alt="email">reservas@SurfClubHotel.com.br</p>
+            </div>
+            <div class="redes">
+                <h3>Redes Sociais</h3>
+                <a href="https://instagram.com" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+                <a href="https://www.airbnb.com.br/" target="_blank"><img src="airbnb.png" alt="Airbnb"></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><img src="whatsapp.png" alt="WhatsApp"></a>
+            </div>
+            <div class="newsletter">
+                <h3>Assine nossa Newsletter</h3>
+                <form method="POST">
+                    <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                    <button type="submit">Inscrever-se</button>
+                </form>
+            </div>
+            <p class="direitos-autorais">© 2024 Menezes Surf Club Hotel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
